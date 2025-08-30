@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  bracfish:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bracfish-web-nextjs
+    container_name: bracfish-nextjs
+    ports:
+      - "3018:3000"
+    restart: unless-stopped
+      #env_file: .env
+    networks:
+      - brac-fish_net
+      
+networks:
+  brac-fish_net:
+    driver: bridge
+

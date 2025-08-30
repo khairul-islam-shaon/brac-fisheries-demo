@@ -1,0 +1,132 @@
+#Banner {
+  img {
+    border-radius: unset;
+  }
+  .hrx {
+    height: 100px;
+    width: 5px;
+    background: #1C486B;
+    margin-left: 5px;
+  }
+  position: relative;
+
+  .wrap {
+    position: absolute;
+    bottom: 0;
+    max-width: 600px;
+    width: 100%;
+  }
+  .banner-card {
+    background: rgba(22, 177, 199, 0.43);
+    height: 100px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 30px;
+      font-weight: bolder;
+      position: absolute;
+      color: white;
+      padding-left: 10%;
+    }
+  }
+  img {
+    width: 100%;
+    max-height: 461px;
+  }
+}
+
+@media (max-width: 1540px) {
+}
+
+@media (max-width: 1280px) {
+  #Banner {
+    position: relative;
+    .wrap {
+      position: absolute;
+      bottom: 0;
+      max-width: 600px;
+      width: 100%;
+    }
+    .hrx {
+      height: 80px;
+      width: 5px;
+      background: blue;
+      margin-left: 5px;
+    }
+    .banner-card {
+      background: rgba(22, 177, 199, 0.43);
+      height: 80px;
+
+      display: flex;
+      align-items: center;
+
+      h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+        color: white;
+        padding-left: 10%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #Banner {
+    position: relative;
+
+    .banner-card {
+      max-width: 400px;
+      width: 100%;
+      background: rgba(22, 177, 199, 0.43);
+      height: 80px;
+
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+        color: white;
+        padding-left: 10%;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  #Banner {
+    position: relative;
+    .wrap{
+      width: 100%;
+      bottom: 0;
+      height: 40px;
+      max-width: 200px;
+    }
+    .hrx{
+      height: 40px;
+    }
+    .banner-card {
+      max-width: 200px;
+      background: rgba(22, 177, 199, 0.43);
+      height: 40px;
+      
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      h2 {
+        font-size: 16px;
+        font-weight: bolder;
+        position: absolute;
+        line-height: 22px;
+        color: white;
+        padding-left: 10%;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# Ignore dependencies
+node_modules
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignore build output
+.next
+out
+
+# Ignore logs
+*.log
+logs/
+log/
+
+# Ignore local environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore test-related files
+coverage/
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+*.snap
+
+# Ignore editor settings and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Docker-specific files
+.dockerignore
+Dockerfile*
+
+# Ignore Git files
+.git
+.gitignore
+.gitmodules
+
+# Ignore cache
+.cache

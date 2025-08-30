@@ -1,0 +1,108 @@
+#ServiceGrid {
+  .service-card {
+    width: 33%;
+  }
+  img {
+    border-radius: 20px;
+    background: #19b3c8 !important;
+    margin-bottom: -15px;
+    object-fit: cover;
+    min-height: 240px;
+     height: 100%;
+  }
+
+  .title-container {
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+  .title {
+    border-radius: 0px 0px 20px 20px;
+    // padding: 30px;
+  }
+
+  .service-des {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    -webkit-line-clamp: 2; /* This is correct */
+    overflow: hidden;
+    max-height: 70px;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1536px) {
+  #ServiceGrid {
+    .service-card {
+      width: 420px;
+    }
+    img {
+      border-radius: 20px;
+      background: #19b3c8 !important;
+      margin-bottom: -15px;
+      object-fit: cover;
+      min-height: 240px;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  #ServiceGrid {
+    .service-card {
+      width: 33%;
+    }
+    img {
+      border-radius: 20px;
+      background: #19b3c8 !important;
+      margin-bottom: -15px;
+      object-fit: cover;
+      min-height: 240px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #ServiceGrid {
+    .service-card {
+      width: 48%;
+    }
+    img {
+      border-radius: 20px;
+      background: #19b3c8 !important;
+      margin-bottom: -15px;
+      object-fit: cover;
+      min-height: 220px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #ServiceGrid {
+    img {
+      object-fit: cover;
+      min-height: 240px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #ServiceGrid {
+    .service-card {
+      width: 350px;
+    }
+    img {
+      object-fit: cover;
+      min-height: 240px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  #ServiceGrid {
+    .service-card {
+      width: 100%;
+    }
+    img {
+      object-fit: cover;
+      min-height: unset;
+    }
+  }
+}

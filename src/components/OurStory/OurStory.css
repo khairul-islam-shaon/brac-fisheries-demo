@@ -1,0 +1,6 @@
+#our-story img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=OurStory.css.map */

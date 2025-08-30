@@ -1,0 +1,334 @@
+.carousel {
+  .slick-slide > div {
+    margin: unset !important;
+  }
+  .slick-list {
+    margin: unset !important ;
+  }
+
+  .slick-dots {
+    bottom: 28px !important;
+  }
+  .slick-dots li {
+    margin: 0 10px !important;
+  }
+  .slick-dots li.slick-active button:before {
+    // opacity: 0.75;
+    color: unset !important;
+    background: white !important;
+  }
+  .slick-dots li button:before {
+    opacity: unset !important;
+    color: unset !important;
+    background: rgba(255, 255, 255, 0.58) !important;
+    // background: blue !important;
+
+    border-radius: 100% !important;
+  }
+
+  // height: 100vh;
+
+
+  .slider-caption {
+    // background-color: rgba(255, 255, 255, 0.52);
+    max-width: 952px;
+    color: white;
+    height: 321px;
+    position: absolute;
+    // bottom: 16.5rem;
+    // left: 8rem;
+    border-radius: 23px;
+    // z-index: 999;
+
+    top: 20%;
+    left: 5%;
+    h2 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 64.39px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 0 54px;
+      padding-top: 40px;
+      margin-bottom: 49px;
+    }
+    p {
+      color: white;
+      font-size: 26px;
+      text-align: left;
+      padding: 0 54px;
+      //padding-top: 4
+      margin-bottom: 49px;
+    }
+    .button-primary {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 1536px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .slider-caption {
+      max-width: 752px;
+      height: 300px;
+      h2 {
+        font-size: 36px;
+        line-height: 44px;
+        // max-width: 752px;
+        margin-bottom: 30px;
+        //   height: 300px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .slick-dots {
+      bottom: 32px !important;
+    }
+    .slider-caption {
+      left: 5rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .carousel-top {
+      height: auto;
+    }
+
+    .slider-caption {
+      max-width: 600px;
+      height: 250px;
+      left: 2rem;
+      bottom: 15rem;
+      h2 {
+        font-size: 32px;
+        line-height: 40px;
+        // max-width: 600px;
+        //   max-width: 752px;
+        margin-bottom: 20px;
+        //   height: 300px;
+      }
+      .btnClass {
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .carousel-top {
+      height: 400px;
+    }
+    .slider-caption {
+      left: 0rem;
+      bottom: 9rem;
+      max-width: 500px;
+      height: 220px;
+      h2 {
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 600px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: white;
+        font-size: 16px;
+        line-height: unset;
+        text-align: left;
+        padding: 0 52px;
+        margin-bottom: unset;
+      }
+      .btnClass {
+        font-size: 1rem;
+        padding: -1 2rem;
+        margin-left: 46px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .carousel-top {
+      height:auto;
+      video {
+        height: auto;
+      }
+
+      .group {
+        .explore-btn {
+         
+        }
+      }
+    }
+
+    .slick-dots {
+      bottom: 10px !important;
+    }
+    .slick-dots li button {
+      margin: 0 10px !important;
+    }
+    .slick-dots li.slick-active button:before {
+      // opacity: 0.75;
+      color: unset !important;
+      background: white !important;
+    }
+    .slick-dots li button::before {
+      height: 10px !important;
+      width: 10px !important;
+    }
+    .slick-dots li button:before {
+      opacity: unset !important;
+      color: unset !important;
+      background: rgba(255, 255, 255, 0.58) !important;
+      // background: blue !important;
+
+      border-radius: 100% !important;
+    }
+
+    .slider-caption {
+      top: 10%;
+      bottom: 1.5rem;
+      left: 1rem;
+      width: 300px;
+      height: 125px;
+      h2 {
+        font-size: 12px;
+        line-height: 20px;
+
+        margin-bottom: 10px;
+        padding: 0 20px;
+        padding-top: 12px;
+      }
+      p {
+        color: white;
+        font-size: 12px;
+        line-height: unset;
+        text-align: left;
+        padding: 0 20px;
+        margin-bottom: unset;
+      }
+      .btnClass {
+        font-size: 0.75rem;
+        margin-left: 20px !important;
+        border-radius: 10px;
+        margin-left: unset;
+        padding: unset;
+      }
+      .button-primary {
+        padding: 5px 5px !important;
+        max-width: 140px;
+        font-size: 12px !important;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .carousel {
+    .slick-slide > div {
+      margin: unset !important;
+    }
+    .slick-list {
+      margin: unset !important ;
+    }
+    .carousel-top {
+      height: auto;
+
+      video {
+        height: auto;
+      }
+    }
+
+    .slick-dots {
+      bottom: 10px !important;
+    }
+    .slick-dots li button {
+      margin: 0 10px !important;
+    }
+    .slick-dots li.slick-active button:before {
+      // opacity: 0.75;
+      color: unset !important;
+      background: white !important;
+    }
+    .slick-dots li button::before {
+      height: 10px !important;
+      width: 10px !important;
+    }
+    .slick-dots li button:before {
+      opacity: unset !important;
+      color: unset !important;
+      background: rgba(255, 255, 255, 0.58) !important;
+      // background: blue !important;
+
+      border-radius: 100% !important;
+    }
+
+    .slider-caption {
+      left: 1rem;
+      width: 300px;
+      height: 125px;
+      h2 {
+        font-size: 12px;
+        line-height: 20px;
+
+        margin-bottom: 10px;
+        padding: 0 20px;
+        padding-top: 12px;
+      }
+      p {
+        color: white;
+        font-size: 12px;
+        line-height: unset;
+        text-align: left;
+        padding: 0 20px;
+        margin-bottom: unset;
+      }
+      .btnClass {
+        font-size: 0.75rem;
+        margin-left: 20px !important;
+        border-radius: 10px;
+        margin-left: unset;
+        padding: unset;
+      }
+      .button-primary {
+        padding: 0 !important;
+        max-width: 120px;
+        font-size: 10px !important;
+      }
+    }
+  }
+}

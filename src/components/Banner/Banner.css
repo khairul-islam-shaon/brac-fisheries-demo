@@ -1,0 +1,119 @@
+#Banner {
+  position: relative;
+}
+#Banner img {
+  border-radius: unset;
+}
+#Banner .hrx {
+  height: 100px;
+  width: 5px;
+  background: #1C486B;
+  margin-left: 5px;
+}
+#Banner .wrap {
+  position: absolute;
+  bottom: 0;
+  max-width: 600px;
+  width: 100%;
+}
+#Banner .banner-card {
+  background: rgba(22, 177, 199, 0.43);
+  height: 100px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#Banner .banner-card h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  color: white;
+  padding-left: 10%;
+}
+#Banner img {
+  width: 100%;
+  max-height: 461px;
+}
+
+@media (max-width: 1280px) {
+  #Banner {
+    position: relative;
+  }
+  #Banner .wrap {
+    position: absolute;
+    bottom: 0;
+    max-width: 600px;
+    width: 100%;
+  }
+  #Banner .hrx {
+    height: 80px;
+    width: 5px;
+    background: blue;
+    margin-left: 5px;
+  }
+  #Banner .banner-card {
+    background: rgba(22, 177, 199, 0.43);
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  #Banner .banner-card h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 768px) {
+  #Banner {
+    position: relative;
+  }
+  #Banner .banner-card {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(22, 177, 199, 0.43);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  #Banner .banner-card h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 560px) {
+  #Banner {
+    position: relative;
+  }
+  #Banner .wrap {
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    max-width: 200px;
+  }
+  #Banner .hrx {
+    height: 40px;
+  }
+  #Banner .banner-card {
+    max-width: 200px;
+    background: rgba(22, 177, 199, 0.43);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  #Banner .banner-card h2 {
+    font-size: 16px;
+    font-weight: bolder;
+    position: absolute;
+    line-height: 22px;
+    color: white;
+    padding-left: 10%;
+  }
+}/*# sourceMappingURL=Banner.css.map */

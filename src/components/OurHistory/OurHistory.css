@@ -1,0 +1,145 @@
+#ourHistory .historyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+#ourHistory .historyGrid li {
+  color: #263238;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.4px;
+}
+#ourHistory .bg-image {
+  height: 650px;
+  background-repeat: no-repeat;
+}
+#ourHistory .player-wrapper {
+  position: relative;
+  padding-top: 46.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+#ourHistory .react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#ourHistory .playbtn {
+  width: 80px;
+  height: 80px;
+}
+#ourHistory .cancel-btn {
+  width: 30px;
+  height: 30px;
+}
+#ourHistory .video-caption {
+  font-size: 32px;
+  bottom: 3%;
+  left: 3%;
+}
+#ourHistory .video-caption p {
+  color: white;
+}
+
+@media (max-width: 1536px) {
+  #ourHistory p {
+    font-size: 17px;
+  }
+  #ourHistory .historyGrid li {
+    font-size: 17px;
+  }
+  #ourHistory .bg-image {
+    height: 560px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1024px) {
+  #ourHistory p {
+    font-size: 15px;
+    line-height: 25.4px;
+  }
+  #ourHistory .historyGrid li {
+    font-size: 15px;
+    line-height: 25.4px;
+  }
+  #ourHistory .bg-image {
+    height: 400px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 768px) {
+  #ourHistory p {
+    font-size: 12px;
+    line-height: 25.4px;
+  }
+  #ourHistory .historyGrid li {
+    font-size: 12px;
+    line-height: 25.4px;
+  }
+  #ourHistory .video-caption {
+    bottom: 2%;
+  }
+  #ourHistory .bg-image {
+    height: 350px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 576px) {
+  #ourHistory .historyGrid {
+    display: block;
+  }
+  #ourHistory .list-disc {
+    padding-bottom: 7px;
+  }
+  #ourHistory p {
+    font-size: 11px;
+  }
+  #ourHistory .bg-image {
+    height: 180px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #ourHistory .playbtn {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 360px) {
+  #ourHistory .historyGrid {
+    display: block;
+  }
+  #ourHistory .list-disc {
+    padding-bottom: 7px;
+  }
+  #ourHistory p {
+    font-size: 11px;
+  }
+  #ourHistory .bg-image {
+    height: 140px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #ourHistory .playbtn {
+    width: 40px;
+    height: 40px;
+  }
+  #ourHistory .video-caption {
+    line-height: 16px;
+    bottom: 3%;
+    left: 3%;
+  }
+  #ourHistory .video-caption p {
+    color: white;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=OurHistory.css.map */

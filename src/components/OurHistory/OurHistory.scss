@@ -1,0 +1,191 @@
+#ourHistory {
+  .historyGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    li {
+      color: #263238;
+      text-align: justify;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35.4px;
+    }
+  }
+
+  .bg-image {
+    //width: 920px;
+    height: 650px;
+    background-repeat: no-repeat;
+  
+  }
+
+  // .react-player > div {
+
+  //   height: 650px !important;
+  // }
+  .player-wrapper {
+    position: relative;
+    padding-top: 46.25%; /* Player ratio: 100 / (1280 / 720) */
+  }
+
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .playbtn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cancel-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .video-caption {
+    font-size: 32px;
+    bottom: 3%;
+    left: 3%;
+    p {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 1536px) {
+  #ourHistory {
+    p {
+      font-size: 17px;
+    }
+    .historyGrid {
+      li {
+        font-size: 17px;
+      }
+    }
+
+    .bg-image {
+      //width: 920px;
+      height: 560px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1024px) {
+  #ourHistory {
+    p {
+      font-size: 15px;
+      line-height: 25.4px;
+    }
+    .historyGrid {
+      li {
+        font-size: 15px;
+        line-height: 25.4px;
+      }
+    }
+
+    .bg-image {
+      //width: 920px;
+      height: 400px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #ourHistory {
+    p {
+      font-size: 12px;
+      line-height: 25.4px;
+    }
+    .historyGrid {
+      li {
+        font-size: 12px;
+        line-height: 25.4px;
+      }
+    }
+
+    .video-caption {
+      bottom: 2%;
+    }
+
+    .bg-image {
+      //width: 920px;
+      height: 350px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+@media (max-width: 576px) {
+  #ourHistory {
+    .historyGrid {
+      display: block;
+    }
+    .list-disc {
+      padding-bottom: 7px;
+    }
+
+    p {
+      font-size: 11px;
+    }
+
+    .bg-image {
+      //width: 920px;
+      height: 180px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .playbtn {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  #ourHistory {
+    .historyGrid {
+      display: block;
+    }
+    .list-disc {
+      padding-bottom: 7px;
+    }
+
+    p {
+      font-size: 11px;
+    }
+
+    .bg-image {
+      //width: 920px;
+      height: 140px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .playbtn {
+      width: 40px;
+      height: 40px;
+    }
+
+    .video-caption {
+      
+      line-height: 16px;
+      bottom: 3%;
+      left: 3%;
+      p {
+        color: white;
+        line-height: 16px;
+        font-size: 12px;
+        text-align: left;
+      }
+    }
+  }
+}

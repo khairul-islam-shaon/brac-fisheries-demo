@@ -1,0 +1,38 @@
+#certification .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#certification .content img {
+  margin-right: 80px;
+  width: 30%;
+  height: auto;
+}
+#certification .content li {
+  color: #263238;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.4px;
+}
+
+@media (max-width: 576px) {
+  #certification .content {
+    display: block;
+  }
+  #certification .content img {
+    margin-right: unset;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+  #certification .content li {
+    color: #263238;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+  }
+}/*# sourceMappingURL=Certification.css.map */

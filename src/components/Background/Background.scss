@@ -1,0 +1,70 @@
+#background{
+  .historyGrid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    li{
+      color: #263238;
+      text-align: justify;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35.4px;
+    }
+  }
+}
+
+@media (max-width: 1536px) {
+  #background{
+    p{
+      font-size: 17px;
+    }
+    .historyGrid{
+      li{
+        font-size: 17px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+
+}
+@media (max-width: 1024px) {
+  #background{
+    p{
+      font-size: 15px;
+      line-height: 25.4px;
+    }
+    .historyGrid{
+      li{
+        font-size: 15px;
+        line-height: 25.4px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #background {
+    p{
+      font-size: 12px;
+      line-height: 25.4px;
+    }
+    .historyGrid{
+      li{
+        font-size: 12px;
+        line-height: 25.4px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #background {
+
+    .historyGrid {
+      display: block;
+    }
+    .list-disc {
+      padding-bottom: 7px;
+    }
+  }
+}
